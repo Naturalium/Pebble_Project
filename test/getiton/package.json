@@ -1,0 +1,48 @@
+{
+  "name": "getiton",
+  "author": "SHIM",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "getiton",
+    "uuid": "6378b356-1140-4651-a945-fb7791ad1df4",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "TEMPERATURE",
+      "CONDITIONS"
+    ],
+    "resources": {
+      "media": [
+	{
+	  "type": "font",
+	  "name": "FONT_PERFECT_DOS_20",
+	  "file": "fonts/test.ttf",
+	  "compatibility": "2.7"
+	},
+	{
+	  "type": "bitmap",
+	  "name": "IMAGE_BACKGROUND",
+	  "file": "images/test.png"
+	},
+	{
+	  "type": "bitmap",
+	  "name": "IMAGE_BT_ICON",
+	  "file": "bt-icon.png"
+	}
+      ]
+    },
+    "capabilities": ["location"]
+  }
+}

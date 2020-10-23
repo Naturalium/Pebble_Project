@@ -1,0 +1,32 @@
+{
+  "name": "onebutten",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "onebutten",
+    "uuid": "27789d30-e6ce-4f25-9f00-f19d4faee106",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "LOCK_STATE",
+      "APP_READY",
+      "LOCK_UUID",
+      "ACCESS_TOKEN"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

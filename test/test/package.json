@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "test",
+    "uuid": "dbd3e69c-4ae7-4d96-aaf8-409842f28efd",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+{
+	"file": "images/test2.png",
+	"name": "IMAGE_BACKGROUND",
+	"targetPlatforms" : null,
+	"type": "bitmap"
+}]
+    }
+  }
+}

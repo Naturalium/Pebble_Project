@@ -1,0 +1,6 @@
+{
+    "ACCESS_TOKEN": 10003,
+    "APP_READY": 10001,
+    "LOCK_STATE": 10000,
+    "LOCK_UUID": 10002
+}

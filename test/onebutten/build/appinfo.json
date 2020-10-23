@@ -1,0 +1,36 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "displayName": "onebutten", 
+    "name": "onebutten", 
+    "messageKeys": {
+        "APP_READY": 10001, 
+        "LOCK_UUID": 10002, 
+        "LOCK_STATE": 10000, 
+        "ACCESS_TOKEN": 10003
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "APP_READY": 10001, 
+        "LOCK_UUID": 10002, 
+        "LOCK_STATE": 10000, 
+        "ACCESS_TOKEN": 10003
+    }, 
+    "longName": "onebutten", 
+    "shortName": "onebutten", 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "27789d30-e6ce-4f25-9f00-f19d4faee106"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "test1",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "test1",
+    "uuid": "2b6a3231-2be9-420d-8bf9-333adf1e6375",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+{
+	"file": "images/test.png",
+	"name": "IMAGE_BACKGROUND",
+	"targetPlatforms" : null,
+	"type": "bitmap"
+},
+{
+	"file": "fonts/test.ttf",
+	"name": "FONT_PERFECT_DOS_20",
+	"targetPlatforms": null,
+	"type": "font"
+}
+]
+    }
+  }
+}
